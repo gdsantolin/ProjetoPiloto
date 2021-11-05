@@ -14,7 +14,7 @@ header {
     padding: 20px 10px;
 }
 
-header a{
+.header-buttons a{
     float: left;
     text-align: center;
     padding: 15px;
@@ -49,13 +49,37 @@ h2{
     
 }
 
+
+h4{
+    color: white;
+    float: right;
+    font-size: 24px;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link-perfil{
+    color: #1498D5;
+    font-size: 20px;
+    float: right;
+    font-family: 'Rokkitt', sans-serif;
+    margin-top: 35px;
+    margin-right: -80px;
+}
+
 .check{
     float: left;
+    
+    padding-left: 50px;
+    padding-right: 10px;
     
 }
 
 .check-socio{
-    margin-top: 110px;
+    margin-top: 130px;
 }
 
 .caixa-texto{
@@ -80,9 +104,13 @@ h2{
     text-indent: 40px;
 }
 
-header a:hover{
+.header-buttons a:hover{
     color: white;
     background-color: dimgray;
+}
+
+.link-perfil:hover{
+    color: #57CAFF;
 }
 
 .header-buttons{
@@ -100,7 +128,6 @@ header a:hover{
 
 .info-perfil p{
     text-align: center;
-    
 }
 
 .foto-perfil{
@@ -137,5 +164,17 @@ footer .logo{
     margin-top: 15px;
 }
 
-
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
   
