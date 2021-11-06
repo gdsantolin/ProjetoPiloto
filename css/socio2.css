@@ -14,7 +14,7 @@ header {
     padding: 20px 10px;
 }
 
-header a{
+.header-buttons a{
     float: left;
     text-align: center;
     padding: 15px;
@@ -28,11 +28,8 @@ h1{
     font-weight: 500;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 30px;
-    padding-left: 50px;
+    padding-left: 80px;
 }
-
-
-
 
 .foto-socio{
     margin-top: -20px;
@@ -46,27 +43,51 @@ h1{
 }
 
 h2{
-    float: center;
     width: 600px;
     font-size: 24px;
     font-family: 'Rokkitt', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     
+}
+
+
+h4{
+    color: white;
+    float: right;
+    font-size: 24px;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link-perfil{
+    color: #1498D5;
+    font-size: 20px;
+    float: right;
+    font-family: 'Rokkitt', sans-serif;
+    margin-top: 35px;
+    margin-right: -80px;
 }
 
 .check{
     float: left;
     
+    padding-left: 70px;
+    padding-right: 10px;
+    
 }
 
 .check-socio{
-    margin-top: 110px;
+    margin-top: 130px;
 }
 
 .caixa-texto{
     background-color: #292929;
     position: relative;
     top: 50px;
-    left: 200px;
+    left: 230px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 40px;
@@ -76,7 +97,7 @@ h2{
 .conteudo-socio p{
     text-align: justify;
     margin: 5px;
-    width: 370px;
+    width: 330px;
     color: white;
     font-size: 21px;
     line-height: 1.2;
@@ -84,9 +105,13 @@ h2{
     text-indent: 40px;
 }
 
-header a:hover{
+.header-buttons a:hover{
     color: white;
     background-color: dimgray;
+}
+
+.link-perfil:hover{
+    color: #57CAFF;
 }
 
 .header-buttons{
@@ -104,7 +129,6 @@ header a:hover{
 
 .info-perfil p{
     text-align: center;
-    
 }
 
 .foto-perfil{
@@ -140,6 +164,3 @@ footer p{
 footer .logo{
     margin-top: 15px;
 }
-
-
-  
